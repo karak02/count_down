@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://i.pinimg.com/originals/93/4b/c4/934bc432ea50f03c3dfca465934ac347.jpg) center center;
+    background-size: cover;
+    font-family: 'Fascinate', cursive;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 20px;
+}
+.col{
+    width: 1000px;
+    height: 100px;
+    margin: 45px auto;
+    margin-top: 45px;
+    display: flex;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 55px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+label{
+    font-size: 25px;
+}
